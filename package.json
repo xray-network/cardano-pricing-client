@@ -1,7 +1,7 @@
 {
   "name": "pricing-client",
   "version": "1.0.0-0",
-  "description": "TypeScript client for XRAY/Graph/Pricing API and original Koios API",
+  "description": "TypeScript client for XRAY/Graph/Pricing API",
   "author": "XRAY/Network <hello@xray.app>",
   "homepage": "https://xray.app",
   "license": "MIT",
