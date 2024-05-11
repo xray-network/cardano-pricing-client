@@ -1,5 +1,5 @@
 import { expect, test, vi } from "vitest"
-import PricingClient from ".."
+import PricingClient from "../src"
 
 const baseUrl = "https://graph.xray.app/output/pricing/mainnet/api/v1"
 const headers = {}
