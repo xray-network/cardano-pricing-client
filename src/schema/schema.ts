@@ -4,7 +4,7 @@
  */
 
 
-export interface paths {
+export type paths = {
   "/orders": {
     /**
      * Orders
@@ -27,11 +27,11 @@ export interface paths {
       };
     };
   };
-}
+};
 
 export type webhooks = Record<string, never>;
 
-export interface components {
+export type components = {
   schemas: {
     Order: {
       id?: number;
@@ -58,7 +58,7 @@ export interface components {
   requestBodies: never;
   headers: never;
   pathItems: never;
-}
+};
 
 export type $defs = Record<string, never>;
 
