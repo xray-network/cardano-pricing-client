@@ -4,7 +4,8 @@
   
 # Cardano Pricing TypeScript Client
 
-Automatically generated Openapi-fetch (Axios) client for [XRAY/Graph Pricing API](https://xray.app) — DEX prices for any Cardano token
+> [!NOTE]
+> Automatically generated Openapi-fetch (Axios) client for [XRAY/Graph Pricing API](https://xray.app) — DEX prices for any Cardano token
 
 ## Installation
 
