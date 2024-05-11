@@ -4,6 +4,9 @@
   
 # Cardano Pricing TypeScript Client
 
+> [!WARNING]
+> XRAY/Graph Pricing API and client are in active development, stay tuned to https://twitter.com/xray_network for updates.
+
 > [!NOTE]
 > Automatically generated Openapi-fetch (Axios) client for [XRAY/Graph Pricing API](https://xray.app) based on [schema.yaml](https://raw.githubusercontent.com/xray-network/cardano-pricing-client/main/src/schema/schema.yaml) OpenAPI schema. DEX price tracking for any Cardano token
 
