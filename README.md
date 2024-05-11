@@ -26,7 +26,7 @@ npm i cardano-pricing-client
 ```TypeScript
 import PricingClient from "cardano-pricing-client"
 
-const client = KoiosClient("https://api.koios.rest/api/v1")
+const client = PricingClient("https://api.koios.rest/api/v1")
 
 const app = async () => {
   const orders = await client.GET("/orders")
@@ -48,9 +48,9 @@ app()
 <summary>Request Cancellation (AbortSignal)</summary>
 
 ```TypeScript
-import KoiosClient from "cardano-koios-client"
+import PricingClient from "cardano-pricing-client"
 
-const client = KoiosClient("https://api.koios.rest/api/v1")
+const client = PricingClient("https://api.koios.rest/api/v1")
 
 const app = async () => {
   const abortController = new AbortController()
