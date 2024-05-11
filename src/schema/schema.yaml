@@ -1,0 +1,75 @@
+openapi: 3.1.0
+info:
+  title: Pricing API
+  contact:
+    name: XRAY/Network
+    url: https://xray.app
+    email: hello@xray.app
+  license:
+    name: MIT License
+    url: https://github.com/xray-network/pricing-client/blob/main/LICENSE
+  version: v1.0.0
+  description: Cardano DEX Pricing API
+
+paths:
+  /orders:
+    get:
+      tags: Orders
+      responses:
+        '200':
+          description: Orders
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Order"
+        '404':
+          description: Not found
+          content:
+            text/html:
+              schema:
+                type: string
+                example: Orders Not Found
+      summary: Orders
+      description: Get all DEXs orders
+
+components:
+  schemas:
+    Order:
+      type: object
+      properties:
+        id:
+          type: number
+        tx_id:
+          type: string
+        tx_index:
+          type: number
+        slot:
+          type: number
+        timestamp:
+          type: string
+        dex_type:
+          type: string
+        order_type:
+          type: string
+        cancelled:
+          type: boolean
+        metadata_msg:
+          type: string
+        sender_payment_vkey:
+          type: string
+        sender_address:
+          type: string
+        receiver_payment_vkey:
+          type: string
+        receiver_address:
+          type: string
+        asset_a:
+          type: string
+        asset_b:
+          type: string
+        amount_a:
+          type: string
+        amount_b:
+          type: string
