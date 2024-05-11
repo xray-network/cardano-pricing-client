@@ -26,7 +26,7 @@ npm i cardano-pricing-client
 ```TypeScript
 import PricingClient from "cardano-pricing-client"
 
-const client = PricingClient("https://api.koios.rest/api/v1")
+const client = PricingClient("https://graph.xray.app/output/pricing/mainnet/api/v1")
 
 const app = async () => {
   const orders = await client.GET("/orders")
@@ -50,7 +50,7 @@ app()
 ```TypeScript
 import PricingClient from "cardano-pricing-client"
 
-const client = PricingClient("https://api.koios.rest/api/v1")
+const client = PricingClient("https://graph.xray.app/output/pricing/mainnet/api/v1")
 
 const app = async () => {
   const abortController = new AbortController()
