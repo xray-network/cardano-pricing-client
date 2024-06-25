@@ -2,13 +2,12 @@
 <a href="https://www.npmjs.com/package/cardano-pricing-client"><img alt="NPM" src="https://img.shields.io/npm/v/cardano-pricing-client/latest?style=for-the-badge&logo=npm&labelColor=%231940ED&color=%233FCB9B"></a>
 <a href="https://github.com/ray-network/cardano-pricing-client/actions"><img alt="CODEQL" src="https://img.shields.io/github/actions/workflow/status/xray-network/cardano-pricing-client/codeql.yml?label=CodeQL&logo=github&style=for-the-badge&labelColor=%231940ED&color=%233FCB9B"></a>
   
-# Cardano Pricing TypeScript Client
+# TypeScript Client for XRAY/Graph Pricing API
 
 > [!WARNING]
 > XRAY/Graph Pricing API and client are in active development, stay tuned to https://twitter.com/xray_network for updates.
 
-> [!NOTE]
-> Automatically generated Openapi-fetch (Axios) client for [XRAY/Graph Pricing API](https://xray.app) based on [schema.yaml](https://raw.githubusercontent.com/xray-network/cardano-pricing-client/main/src/schema/schema.yaml) OpenAPI schema. DEX price tracking for any Cardano token
+Automatically generated Openapi-fetch (Axios) client for [XRAY/Graph Pricing API](https://xray.app) based on [schema.yaml](https://raw.githubusercontent.com/xray-network/cardano-pricing-client/main/src/schema/schema.yaml) OpenAPI schema. DEX price tracking for any Cardano token
 
 ## Installation
 
